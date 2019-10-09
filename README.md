@@ -7,11 +7,11 @@ For this homework, you need to complete the Docker Getting Started guide section
 To submit this assignment, create a GitHub repository and make a commit for each section that you complete.   When you are finished submit a link to your repository on Github here.
 
 ### Sections:
-* ![Get Started, Part 1: Orientation and Setup](/Docker_Tutorial/Docker_Part1/)
-    - ![Docker_Assign_Part_1.txt](/Docker_Tutorial/Docker_Part1/Docker_Assign_Part_1.txt)
-* ![Get Started, Part 2: Containers](/Docker_Tutorial/Docker_Part2/)
-    -  ![Docker_Assign_Part_2.txt](/Docker_Tutorial/Docker_Part2/Docker_Assign_Part_2.txt)
-* ![Get Started, Part 3: Services](/Docker_Tutorial/Docker_Part3/)
-    -  ![Docker_Assign_Part_3.txt](/Docker_Tutorial/Docker_Part3/Docker_Assign_Part_3.txt)
+* [Get Started, Part 1: Orientation and Setup](/Docker_Tutorial/Docker_Part1/)
+    - [ Docker_Assign_Part_1.txt : Screen Capture of Code](/Docker_Tutorial/Docker_Part1/Docker_Assign_Part_1.txt)
+* [Get Started, Part 2: Containers](/Docker_Tutorial/Docker_Part2/)
+    -  [Docker_Assign_Part_2.txt : Screen Capture of Code](/Docker_Tutorial/Docker_Part2/Docker_Assign_Part_2.txt)
+* [Get Started, Part 3: Services](/Docker_Tutorial/Docker_Part3/)
+    -  [Docker_Assign_Part_3.txt : Screen Capture of Code](/Docker_Tutorial/Docker_Part3/Docker_Assign_Part_3.txt)
 
 
