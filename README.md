@@ -8,6 +8,7 @@ To submit this assignment, create a GitHub repository and make a commit for each
 
 ### Sections:
 * ![Get Started, Part 1: Orientation and Setup](/Docker_Tutorial/Docker_Part1/)
+    - ![Docker_Assign_Part_1.txt](/Docker_Tutorial/Docker_Part1/Docker_Assign_Part_1.txt)
 * ![Get Started, Part 2: Containers](/Docker_Tutorial/Docker_Part2/)
 * ![Get Started, Part 3: Services](/Docker_Tutorial/Docker_Part3/)
 
