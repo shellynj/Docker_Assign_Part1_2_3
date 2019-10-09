@@ -1,4 +1,4 @@
-## Docker_Assign_Part1_2_3
+## Docker Homework Assignment Parts 1, 2 and 3
 Repository for Docker Get Started Homework Assignment
 
 ### Objective: 
