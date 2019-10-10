@@ -15,4 +15,4 @@ To submit this assignment, create a GitHub repository and make a commit for each
     -  [Docker_Assign_Part_3.txt : Screen Capture of Command Line](/Docker_Tutorial/Docker_Part3/Docker_Assign_Part_3.txt)
 
 
-[Docker_Assign_Part1_2_3/Docker_Tutorial/](Docker_Assign_Part1_2_3/Docker_Tutorial/)
+[Docker_Assign_Part1_2_3/Docker_Tutorial/](/Docker_Tutorial)
