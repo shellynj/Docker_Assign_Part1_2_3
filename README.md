@@ -17,7 +17,7 @@ To submit this assignment, create a GitHub repository and make a commit for each
 
 [Docker_Assign_Part1_2_3/Docker_Tutorial/](/Docker_Tutorial)
 
-Each File contains the terminal commands and output.
-Get Started, Part 1: Orientation and Setup  File: Docker_Assign_Part_1.txt 
-Get Started, Part 2: Containers  File: Docker_Assign_Part_2.txt 
-Get Started, Part 3: Services   File: Docker_Assign_Part_3.txt 
+Each .txt File contains the terminal commands and output for each section .
+[Get Started, Part 1: Orientation and Setup  File: Docker_Assign_Part_1.txt](/Docker_Tutorial/Docker_Part1/Docker_Assign_Part_1.txt)
+[Get Started, Part 2: Containers  File: Docker_Assign_Part_2.txt](/Docker_Tutorial/Docker_Part2/Docker_Assign_Part_2.txt)
+[Get Started, Part 3: Services   File: Docker_Assign_Part_3.txt] (/Docker_Tutorial/Docker_Part3/Docker_Assign_Part_3.txt)
