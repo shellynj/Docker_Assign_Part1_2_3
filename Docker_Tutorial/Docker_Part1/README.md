@@ -1,4 +1,4 @@
-[ Return to Readme ](shellynj/Docker_Assign_Part1_2_3)  
+[ Return to Readme ](https://github.com/shellynj/Docker_Assign_Part1_2_3)  
 
 
 #### Terminal commands and output for Get Started, Part 1: Orientation and Setup 
