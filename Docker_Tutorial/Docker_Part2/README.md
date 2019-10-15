@@ -9,11 +9,12 @@
      
 * ###  View Files
 
-     -  [ Requirements.txt](/Docker_Tutorial/Docker_Part2/Docker_Assign_Part_2.txt)
+     -  [ Requirements.txt](https://github.com/shellynj/Docker_Assign_Part1_2_3/blob/master/Docker_Tutorial/Docker_Part2/app.py)
+   
+     -  [ Dockerfile ](https://github.com/shellynj/Docker_Assign_Part1_2_3/blob/master/Docker_Tutorial/Docker_Part2/Dockerfile)
      
-     -  [ Requirements.txt](/Docker_Tutorial/Docker_Part2/Docker_Assign_Part_2.txt)
-     
-     -  [ Requirements.txt](/Docker_Tutorial/Docker_Part2/Docker_Assign_Part_2.txt)
+     -  [app.py](https://github.com/shellynj/Docker_Assign_Part1_2_3/blob/master/Docker_Tutorial/Docker_Part2/app.py)
+
      
 
 * ### Image of Web Browser 
