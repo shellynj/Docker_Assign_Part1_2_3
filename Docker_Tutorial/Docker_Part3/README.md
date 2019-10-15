@@ -1,5 +1,6 @@
 [ Return to Readme ](https://github.com/shellynj/Docker_Assign_Part1_2_3)  
 
+## Get Started, Part 3: Services
 
 
 * ###  Terminal commands and output for Screen Capture of Command Line
