@@ -1,1 +1,87 @@
 Docker_Assign_Part_3.txt
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$ docker swarm init --advertise-addr 192.168.99.100:4000
+Swarm initialized: current node (pj71cg3lbcqis3ie9om038fqa) is now a manager.
+
+To add a worker to this swarm, run the following command:
+
+    docker swarm join --token SWMTKN-1-3t1d4ae9ppty2lvhtim4i2pb3r3hzj9i6zkxcg13khte8g634z-bwjwb58xpll0lim6lrsat8k63 192.168.99.100:4000
+
+To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
+
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$ docker stack deploy -c docker-compose.yml getstartedlab
+Creating network getstartedlab_webnet
+Creating service getstartedlab_web
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$ docker service ls
+ID                  NAME                MODE                REPLICAS            IMAGE                        PORTS
+dyxqszppjms0        getstartedlab_web   replicated          5/5                 njit2019/get-started:part2   *:4000->80/tcp
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$ docker service ps getstartedlab_web
+ID                  NAME                  IMAGE                        NODE                DESIRED STATE       CURRENT STATE           ERROR
+     PORTS
+hxid6vrw6cce        getstartedlab_web.1   njit2019/get-started:part2   default             Running             Running 9 minutes ago
+
+2gzlcu1pfajr        getstartedlab_web.2   njit2019/get-started:part2   default             Running             Running 9 minutes ago
+
+0fajbws737n4        getstartedlab_web.3   njit2019/get-started:part2   default             Running             Running 9 minutes ago
+
+da3tuprikuxb        getstartedlab_web.4   njit2019/get-started:part2   default             Running             Running 9 minutes ago
+
+ljndjqopaz9a        getstartedlab_web.5   njit2019/get-started:part2   default             Running             Running 9 minutes ago
+
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$ docker container ls -q
+18630812619f
+8c2387b1b094
+5b15321e996d
+a2fd5338db90
+466441a8a802
+4a3f9914d549
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$ curl -4 http://192.160.99.100:4000
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$ docker stack ps getstartedlab
+ID                  NAME                  IMAGE                        NODE                DESIRED STATE       CURRENT STATE            ERROR
+      PORTS
+hxid6vrw6cce        getstartedlab_web.1   njit2019/get-started:part2   default             Running             Running 22 minutes ago
+
+2gzlcu1pfajr        getstartedlab_web.2   njit2019/get-started:part2   default             Running             Running 22 minutes ago
+
+0fajbws737n4        getstartedlab_web.3   njit2019/get-started:part2   default             Running             Running 22 minutes ago
+
+da3tuprikuxb        getstartedlab_web.4   njit2019/get-started:part2   default             Running             Running 22 minutes ago
+
+ljndjqopaz9a        getstartedlab_web.5   njit2019/get-started:part2   default             Running             Running 22 minutes ago
+
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$ docker stack deploy -c docker-compose.yml getstartedlab
+Updating service getstartedlab_web (id: dyxqszppjms0xyis7wxqq4ww0)
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$ docker container ls -q
+18630812619f
+8c2387b1b094
+466441a8a802
+4a3f9914d549
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$ docker stack rm getstartedlab
+Removing service getstartedlab_web
+Removing network getstartedlab_webnet
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$ docker swarm leave --force
+Node left the swarm.
+
+User@idea-PC MINGW64 /c/my_new_docker_build
+$
